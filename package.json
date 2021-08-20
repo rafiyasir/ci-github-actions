@@ -4,6 +4,8 @@
   "description": "\"simple example of CI",
   "main": "index.js",
   "scripts": {
+    "develop": "webpack --mode=development",
+    "build": "webpack --mode=production",
     "lint": "eslint . --fix",
     "ci:lint": "eslint .",
     "test": "jest --watch",
@@ -12,9 +14,14 @@
   "author": "Rafi Uzzaman",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.0",
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
   }
 }

@@ -1,0 +1,1 @@
+(()=>{var r,e={428:r=>{r.exports=function(r,e,o){return"".concat(r," dealt ").concat(o?2*e:e," damage")}}},o={};r=function r(t){var n=o[t];if(void 0!==n)return n.exports;var a=o[t]={exports:{}};return e[t](a,a.exports,r),a.exports}(428),console.log(r("Smelly Ogre",23))})();
