@@ -9,13 +9,15 @@
     "lint": "eslint . --fix",
     "ci:lint": "eslint .",
     "test": "jest --watch",
-    "ci:test": "jest --ci"
+    "ci:test": "jest --ci",
+    "ci:lighthouse": "lhci autorun"
   },
   "author": "Rafi Uzzaman",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
+    "@lhci/cli": "^0.8.0",
     "babel-loader": "^8.2.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
