@@ -5,9 +5,9 @@ module.exports = {
     },
     assert: {
       preset: 'lighthouse:no-pwa',
-    },
-    assertions: {
-      'csp-xss': 'off',
+      assertions: {
+        'csp-xss': 'warn',
+      },
     },
   },
 };
